@@ -1,0 +1,13 @@
+swagger: 
+  description: 
+    ## Description
+    Currently this REST API is used to format Legal Policy Number to Display Policy Number and vice versa.
+    The API docs can be found at `/api-docs`
+    Information on how to consume the resources are show below.
+  Resources:
+  - /policyNumbers/display
+    - Format Legal Policy Number to Display Policy Number
+    - Supported Business Lines - Auto (lob code `24`) & Fire (lob code `26`)
+  - /policyNumbers/legal
+    - Format Display Policy Number to Legal Policy Number
+    - Supported Business Lines - Auto (lob code `24`) & Fire (lob code `26`)
