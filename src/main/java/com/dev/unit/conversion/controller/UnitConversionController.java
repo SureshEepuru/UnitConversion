@@ -17,7 +17,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping("/unitConversion")
+@RequestMapping("/")
 @Api(tags = "Unit Conversion Common API")
 public class UnitConversionController {
 	
