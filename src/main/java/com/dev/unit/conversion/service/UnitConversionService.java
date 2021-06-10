@@ -149,7 +149,7 @@ public class UnitConversionService {
 	}
 
 	private double convertFahrenheitToKelvin(double f) {
-		return Math.round((273.15 + (f - 32)) * 5 / 9 * 100.0) / 100.0;
+		return Math.round((((f - 32) * 5 / 9) + 273.15) * 100.0) / 100.0;
 	}
 	
 	private double convertFahrenheitToRankine(double f) {
